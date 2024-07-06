@@ -17,10 +17,10 @@ body {
 
 .display {
     background-image: url("https://img.freepik.com/premium-photo/watercolor-dark-gray-texture_145343-1198.jpg");
+    color: white;
     font-size: 2em;
     margin-bottom: 20px;
     padding: 10px;
-    color: white;
     border-radius: 5px;
     text-align: right;
     min-height: 50px;
