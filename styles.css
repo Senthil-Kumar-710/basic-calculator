@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("https://tasbihdigital.com/wp-content/uploads/2022/11/Black-Desktop-Wallpaper-HD.jpg");
+    margin: 0;
+}
+
+
+.calculator {
+    background-image: url("https://w0.peakpx.com/wallpaper/347/318/HD-wallpaper-black-waves-black.jpg");
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.display {
+    background-image: url("https://img.freepik.com/premium-photo/watercolor-dark-gray-texture_145343-1198.jpg");
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    min-height: 50px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-image: url("https://st4.depositphotos.com/23035388/30476/i/450/depositphotos_304769168-stock-photo-abstract-dark-grey-watercolor-background.jpg");
+    padding: 20px;
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.zero {
+    grid-column: span 2;
+}
